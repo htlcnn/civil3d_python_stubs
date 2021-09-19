@@ -334,7 +334,7 @@ def parse_class(cls):
 
 
 def parse_child(child):
-    if 'Enumeration' in name:
+    if 'Enumeration' in child:
         content = parse_enum(child)
     else:
         # all other data types: Class, Interface, Structure
